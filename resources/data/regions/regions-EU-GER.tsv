@@ -1,12 +1,8 @@
 1	Die Welt
-2	Außenwelt
 101	Arun
 102	Südliches Shara
 103	Nördliches Shara
 104	Nördliches Arun
-105	Exodor
-106	Osnium Agaia
-107	Battle Arena
 110	Unterirdisches Schlachtfeld
 111	Tal des Donners
 112	Canyon der Ehre
@@ -17,7 +13,6 @@
 117	Kumaszuflucht
 118	Kumaskrippe
 152	Velika: Zeitalter der Kriegswirren
-156	Goldmünzen-Wettkampf
 200	Insel der Dämmerung
 201	Velika
 202	Insel der Dämmerung
@@ -54,19 +49,10 @@
 506	Velika-Banketthalle
 507	Mystels Pfad
 508	Innenwelt
-510	Subquest: Der Albtraum beginnt
-612	Exodor-Forschungsgruppe
-613	Kristall-Exceptioquartier
-614	Valkyon-Zivilberater
-615	Exodor-Spezialtrupp
-616	Riveran
-620	Lilli-Event
-622	Lilli-Event
-628	Lilli-Event
 833	Würmlingsklamm
 1001	Ruinenmark
 1023	Jagdgebiet für Fertigkeiten/Events
-2001	Westliches Holzfällerlager
+2001	Feenwald
 2002	Holzfällerpalisade
 2003	Feenteich
 2004	Narbenwald
@@ -82,14 +68,6 @@
 2016	Arons Lager
 2017	Geisterzuflucht
 2018	Verwitterter Hain
-2050	Kerngebiet
-2105	Kommandantenstätte (Einzelspieler)
-2500	Osnium Agaia
-2501	Versiegelungsstätte
-2502	Abtrünnigenwald
-2503	Raqnanfestung
-2504	Exodor-Maschinenraum
-2530	Heldentrainingslager
 3001	Wälder der Vergessenheit
 3002	Friedhof von Berzerad
 3003	Blutpfad
@@ -101,33 +79,6 @@
 3009	Höhle des düsteren Widerhalls
 3010	Tal der Bestien
 3011	Vorhutposten
-3017	Antaros-Abgrund (schwierig, 7 Personen)
-3018	Tenebrisfestung (schwierig, 7 Personen)
-3019	Lians Untergrundhalle (schwierig, 7 Personen)
-3020	Goldschuppe
-3023	Geheimzone der Berakfestung
-3024	Arkarp-Brutstätte
-3025	Arkarp-Brutstätte
-3026	Kelsaiks Versteck
-3027	Wutarena
-3028	[Training] Lians Untergrundhalle (schwierig)
-3029	[Training] Antaros-Abgrund (schwierig)
-3030	Legat-Residenz
-3031	Kernzone
-3032	[Training] Geheimzone der Berakfestung
-3033	[Training] Parquinas Nest (schwierig)
-3034	RK-9 Hangar (schwierig)
-3036	Himmelskreuzer (schwierig)
-3037	[Training] Bahaars Tempel
-3101	Parquinas Nest (leicht)
-3102	Kommandantenstätte
-3103	Wutarena
-3104	Rukmia
-3126	Kelsaiks Versteck (schwer)
-3201	Parquinas Nest (schwierig)
-3202	Kommandantenstätte (schwierig)
-3203	Wutarena
-3204	Rukmia
 4001	Fyrkuppe
 4002	Schwefelhochland
 4003	Flammental
@@ -174,7 +125,7 @@
 7001	Himmelshügel
 7002	Ebene von Omphalos
 7003	Muricairuinen
-7004	Mysterium-Labor
+7004	Sanctum Mysterium
 7005	Casidhes Unterstand
 7006	Ruinen von Cardovek
 7007	Godrics Farm
@@ -212,7 +163,7 @@
 9034	Spitze der Furcht (schwierig)
 9044	Bahaars Tempel
 9054	Eingang zu den Untiefen von Bathysmal
-9056	Valonas Raumzeit (schwierig)
+9056	Zeitriss (schwierig)
 9057	Archerons Inferno (schwierig)
 9059	Verlassene Insel
 9060	Kalivans Kriegsgaleere (schwierig)
@@ -221,19 +172,17 @@
 9068	Durions Bluttempel (schwierig)
 9069	Raqnanfestung
 9070	Mogelplateau
-9503	Kommandanten Residenz
 9505	Velika-Banketthalle (schwierig)
 9506	Velika-Banketthalle
 9507	Unbekannter Raum
 9508	Innenwelt
 9509	Friedliche Velika-Banketthalle
-9618	Das Kolosseum
-9681	Veliks Traum
+9618	Event-Arena (Velika)
 9710	Lakans Gefängnis (schwierig)
 9720	Antaros-Abgrund
 9735	RK-9 Hangar
 9739	Revolutionärslager
-9756	Valonas Raumzeit
+9756	Zeitriss
 9759	Verlassene Insel (schwierig)
 9760	Kalivans Kriegsgaleere
 9767	Vernos Laboratorium
@@ -245,6 +194,7 @@
 9782	Lians Untergrundhalle
 9783	Tenebrisfestung
 9794	Syruks Forschungsstation
+9795	
 9810	Eingang zu Lakans Gefängnis
 9830	Thron des Himmels
 9833	Würmlingsklamm
@@ -359,11 +309,6 @@
 15204	Ruine
 15205	Gidd-Gebirge
 15206	Farm
-15601	Mine
-15602	Burg
-15603	Farm
-15604	Markt
-15605	Hafen
 16001	Reißertal
 16002	Verdrehte Ebenen
 16003	Verlassene Felder
@@ -524,11 +469,6 @@
 27006	Castra Mysterium
 27007	Befreiungslager
 27008	Farm der Zuflucht
-27009	Verteidigungsposten 1
-27010	Verteidigungsposten 2
-27011	Verteidigungsposten 3
-27012	Verteidigungsposten 4
-27016	Schmetterlingsplatz
 28001	Schandholz
 28002	Shakans Rache
 28003	Herathpfad
@@ -562,7 +502,6 @@
 30019	Eingang zu Balders Tempel
 30020	Eingang zum Leuchtturm der Sonne
 30021	Baum der Weisheit
-30022	Magiestein-Installationsort
 31000	Lakans Gefängnis
 31001	Sturmebene
 31002	Eisige Ödnis
@@ -639,7 +578,6 @@
 37010	Einfallzone
 37011	Krypta des Untergangs
 38001	Siennaschlucht
-38002	Eingang zur Wutarena
 38004	Feldrinschlucht
 38005	Feuerfeld
 38006	Donnerhalt
@@ -648,7 +586,6 @@
 38009	Wyvernwachposten
 38010	Zugang zur Krypta des Untergangs
 38011	Stachelschwanzstrom
-38012	Quarantänestation
 39001	Arachnaea
 39002	Arachnaea - Haupthöhle
 39003	Das Nest
@@ -883,7 +820,7 @@
 63025	Teleportal der Stadt
 63026	Luftschiffplattform
 63027	Eingang zur Event-Arena (Velika)
-63028	Das Kolosseum
+63028	Event-Arena (Velika)
 64001	Turmbasis
 64002	Kommandoposten der Forscher
 64003	Lians Außenposten
@@ -971,7 +908,7 @@
 84013	Flugplattform von Kaiator
 84014	Schmiedeherz
 84015	Festungseingang
-84016	Magieakademie
+84016	Halle der Macht
 84017	Kaiator-Hauptquartier
 84018	Kriegernoviziat
 84019	Handelszentrum
@@ -1003,69 +940,61 @@
 90008	50–59
 90009	53–58
 90010	56–60
-90011	33-57
-90012	64-65
-90013	63-64
+90011	58–59
+90012	59–60
+90013	59–60
 90014	59–60
 90015	60-65
-90016	65
 97201	Eingang zum Antaros-Abgrund
-99000	Tiarania<br>1-11
-99001	Westliches Holzfällerlager<br>10-15
-99002	Wälder der Vergessenheit<br>11-20
-99003	Tal der Titanen<br>16-20
-99004	Tuwangimorast<br>19-23
-99005	Himmelshügel<br>21-25 (68)
-99006	Klippen des Wahnsinns<br>23-25
-99007	Reißertal<br>24-29
-99008	Paraanonschlucht<br>24-29
-99009	Basiliskenhang<br>27-30
-99010	Freilande<br>28-31
-99011	Nebelmoorinsel<br>30-33
-99012	<br>31–32
-99013	Zerklüftete Küste<br>32-33
-99014	See der Tränen<br>33-36
-99015	Kolossale Ruinen<br>35-38
-99016	Aurumpfad<br>35-38
-99017	Schandholz<br>38-41
-99018	Heiliges Becken<br>38-41 (65)
-99019	Zeitlose Wälder<br>38-42 (65)
-99020	Essenischer Kamm<br>38-43 (66)
-99021	Berg Tyrannas<br>40-45
-99022	Sturmebene<br>41-43
-99023	Frostweiten<br>41-45
-99024	Quarantänezone<br>44-46
-99025	Wildes Tal<br>45-46
-99026	47-51<br><br>Geschwungenes Tal<br><br>31-32
-99027	Schlangeninsel<br>47-51
-99028	Fyrkuppe<br>47-51
-99029	Finsterwald<br>50-53
-99030	Susurrus Hain<br>50-53
-99031	Amena Quatla<br>50-54
-99032	Siennaschlucht<br>53-56 (67, 69)
-99033	Tor Exsul<br>53-57
-99034	Würmlingsklamm<br>53-58
-99035	Feendickicht<br>56-59
-99036	Tal der Spitzen<br>56-59
-99037	Ebene der Verdammten<br>56-60
-99038	Knechtfeste<br>45-48 (58)
-99039	Unterholz von Tirkai<br>33-36
-99040	Granarkus<br>64-65
-99041	Argonea<br>64
-99042	Khanovarfront<br>63-64
-99043	Balders Zuflucht<br>59-60 (67)
-99044	Wildlande<br>60-61
-99045	Tal des Frühlings<br>61-62
-99046	Ex Prima<br>62-63 (68)
-99047	Arx Umbra<br>63-65
-99048	Insel der Dämmerung<br>65
-99049	Rogashs Landgut<br>70
-99050	Exodor-Plantage<br>71
-99051	Viridian-Morast<br>72
-99052	Berakfestung<br>73
-99053	Kerngebiet<br>73
-99054	Nordumgebung<br>73
-99055	Südumgebung<br>73
+99000	1–11
+99001	10–15
+99002	11–20
+99003	16–20
+99004	19–23
+99005	21–25
+99006	23–25
+99007	24–29
+99008	24–29
+99009	27–30
+99010	28–31
+99011	30–33
+99012	31–32
+99013	32–33
+99014	33–36
+99015	35–38
+99016	35–38
+99017	38–41
+99018	38–41
+99019	38–42
+99020	38–43
+99021	40–45
+99022	41–43
+99023	41–45
+99024	44–46
+99025	45–46
+99026	47–51
+99027	47–51
+99028	47–51
+99029	50–53
+99030	50–53
+99031	50–54
+99032	53–56
+99033	53–57
+99034	53–58
+99035	56–59
+99036	56–59
+99037	56–60
+99038	58–59
+99039	58–59
+99040	59–60
+99041	59–60
+99042	59–60
+99043	59–60
+99044	60-61
+99045	61-62
+99046	62-63
+99047	63-65
+99048	65
 99999	Unerforscht
 102001	Winteraschneefeld
 103001	Winteraschneefeld
@@ -1177,9 +1106,7 @@
 182016	Eingang zur Sabexwaffenkammer
 182017	Smaragdhügel
 182018	Eingang zur Sabexwaffenkammer
-182019	Valkyon-Feldlager
 182030	Teleportplattform des Amadjuakhandelspostens
-182031	Exodor-Anlauftrupp
 182100	Teleportplattform der westlichen Quellen
 182101	Teleportplattform der östlichen Quellen
 182102	Teleportplattform der Götterstufen
@@ -1188,6 +1115,7 @@
 182300	Heiße Quellen von Hina
 182400	Kazankamm
 182500	Smaragdhügel
+182838	
 183001	Umland von Höhenwacht
 183002	Höhenwacht
 183003	Zuflucht der Erleuchtung
@@ -1216,22 +1144,6 @@
 248001	Khanovarfront
 249001	Argonea
 250001	Granarkus
-250101	Versiegelungsstätte
-250201	Sieglum
-250202	Sieglum-Zentrum
-250203	Bannkreis-Aktivierungsort
-250301	Raqnanfestung
-250401	Maschinenraum (EG)
-250402	Maschinenraum (1. OG)
-250403	Maschinenraum (2. OG)
-302301	Geheimeingang der Berakfestung
-302701	Warteraum der Wutarena
-302702	Pfad zur Wutarena
-303201	[Training] Geheimeingang der Berakfestung
-310301	Warteraum der Wutarena
-310302	Pfad zur Wutarena
-320301	Warteraum der Wutarena
-320302	Pfad zur Wutarena
 469001	Arx Umbra: vor etwa 50 Jahren
 505111	Elenea
 505112	Feuergrataußenposten
@@ -1258,7 +1170,6 @@
 599010	Lagerhaus
 599011	Pegasusplattform am Traumbaum
 599012	Saftwurzelhöhle
-599013	Baumschule
 780781	Velika-Untergrundtor
 818001	Geheimlabor
 818002	Zugangskorridor zum Labor
@@ -1277,7 +1188,7 @@
 828004	Flugmeister
 829001	Tiaran, der Baum des Kummers
 829002	Herz des Kummers
-905601	Valonas Raumzeit (schwierig)
+905601	Zeitriss (schwierig)
 905602	Pfad der Zeit
 905603	Jenseits des Donnergerichts
 905604	Letztes Urteil
@@ -1307,7 +1218,7 @@
 950002	Zerstörter Eingang zum Himmelreich der Götter
 973501	RK-9 Hangar
 973502	Eingang zum RK-9 Hangar
-975601	Valonas Raumzeit
+975601	Zeitriss
 975602	Pfad der Zeit
 975603	Jenseits des Donnergerichts
 975604	Letztes Urteil
@@ -1332,6 +1243,7 @@
 978021	Blaumagie-Steinkammer
 978030	Verzerrter Ort
 978031	Velika-Untergrundtor
+979501	
 996901	Eingang zur Lilitasfestung, Lachelitas-Ruine
 996902	Brennender Garten
 996903	Ruhmeshalle
@@ -1351,201 +1263,6 @@
 998030	Verzerrter Ort
 998031	Eingestürztes Velika-Untergrundtor
 1810041	Eingang zu den Untiefen von Bathysmal
-2000000	Rogashs Landgut
-2000001	Exodor-Plantage
-2000002	Viridian-Morast
-2000003	Berakfestung
-2000004	Kerngebiet
-2000005	Nordumgebung
-2000006	Südumgebung
-2000010	Konzis-Landgut
-2000011	Rogashs Refugium
-2000012	Larven-Brutstätte
-2000013	Eingang der Larven-Brutstätte
-2000014	Ausgang der Larven-Brutstätte
-2000015	Landgut-Plattform
-2000016	Rogashs Hinterhof
-2000017	Rogashs Anwesen
-2000018	Kristalltal
-2000019	Exodor-Expeditionscamp
-2000020	Brutstättenbelichtung
-2000021	Verborgenes Gebiet
-2000100	Primusbaum
-2000101	Secundusbaum
-2000102	Tertiusbaum
-2000103	Sekretlager
-2000104	Föderationsbasis
-2000150	Schmetterlingsheim
-2001010	Plantagen-Plattform
-2001011	Naga-Lager
-2001012	Eingang der Riveran-Basis
-2001013	Riveran-Basis
-2001014	Ausgang der Riveran-Basis
-2001015	Kristallmine
-2001016	Camp der Valkyon-Föderation
-2001017	Riveran-Camp
-2001018	Kristall-Sammelort
-2001019	Larven-Gehege
-2001020	Plantagen-Verteidigungslager
-2001021	Morastrichtungs-Plattform
-2001022	Geheimversteck
-2001023	Azra-Farm
-2001024	Biest-Gehege
-2001025	Tarnsee
-2001026	Verborgenes Gebiet
-2001050	Kristalldepot
-2001051	Royalparf-Jagdgebiet
-2001052	Royalparf-Zuflucht
-2002001	Morast-Plattform
-2002002	Eingang des Viridian-Morasts
-2002003	Viridian-Morast
-2002004	Verlassener Posten
-2002005	Raubtier-Territorium
-2002006	Bruchtal
-2002007	Monster-Gehege
-2002008	Zwangskerker
-2002009	Fantasiegarten
-2002010	Kerkerbrücke
-2002011	Festungsrichtungs-Plattform
-2002012	Überlebenden-Camp
-2002013	Entlegener Riss
-2002014	Verborgenes Gebiet
-2002050	Finstertal
-2003001	Berakfestungs-Plattform
-2003002	Kontrollposten
-2003003	Eingang der Schauderpassage
-2003004	Schaudertür
-2003005	Schaudergarten (Nordseite)
-2003006	Schaudergarten (Südseite)
-2003007	Berakfestung
-2003008	Eingang zur Berakfestung
-2003009	Untergeschoss der Berakfestung
-2003010	Maschinenraum-Vorplatz
-2003011	Schauderpassage
-2003012	Riveran-Feste
-2003013	Verteidigungsgebiet
-2003014	Sperrzonen-Flur
-2003015	Herz-Eingang
-2003016	Herz-Flur
-2003017	Bannmeile
-2003018	Obergeschoss der Berakfestung
-2003019	Keller der Berakfestung
-2003020	Maschinenraum-Flur
-2003021	Bannmeilen-Flur
-2003022	Untergeschoss der Berakfestung
-2003023	Herz der Berakfestung
-2003024	Kontrollposten-Dach
-2003025	Kommandantenstätten-Eingang
-2003050	Arkarptruppen-Quartier
-2003051	Rosema-Sitz
-2003052	Insel Kerozen
-2010001	Arkarp-Farm
-2011001	Himmelsgarten-Angelinsel
-2012001	Feenweiher-Angelinsel
-2013001	Wolkensee-Insel
-2014001	Viridian-Angelinsel
-2015001	Berak-Angelinsel
-2020001	Akalath Kelsaiks Versteck
-2052001	Akarp-Eroberungsgebiet (Kern)
-2054001	Arkarp-Eroberungsgebiet (Südrand)
-2100001	Rogashs Refugiumskern
-2100002	Ihr teleportiert zur Larven-Brutstätte.
-2101001	Larven-Brutstätte
-2102001	Verhörzentrum
-2103001	Finsterkern-Maschinenraum (EG)
-2103002	Finsterkern-Maschinenraum (1. OG)
-2103003	Finsterkern-Maschinenraum (2. OG)
-2105001	Kommandantenstätte (Einzelspieler)
-2500001	Osnium Agaia
-2500002	Zentrum
-2500003	Junger Weltenbaum
-2500004	Sharas Turm
-3001001	Geheime Basis (Einzelspieler)
-3002001	Anwesen der Arglist (Einzelspieler)
-3003001	Zuflucht der Kultisten (Einzelspieler)
-3004001	Nekromantenkrypta (Einzelspieler)
-3005001	Goldenes Labyrinth (Einzelspieler)
-3006001	Akashas Versteck (Einzelspieler)
-3007001	Salerons Himmelsgarten (Einzelspieler)
-3008001	Labyrinth des Schreckens (Einzelspieler)
-3009001	Ebenholzturm (Einzelspieler)
-3010001	Kelsaiks Nest (Einzelspieler)
-3011001	Manayas Herz (Einzelspieler)
-3017000	Antaros-Abgrund (schwierig, 7 Personen) - Ausgangspunkt
-3017001	Antaros-Abgrund (schwierig, 7 Personen) - Sperrgebiet
-3017002	Antaros-Abgrund (schwierig, 7 Personen) - Exekutionsplatz
-3017003	Antaros-Abgrund (schwierig, 7 Personen) - Raum der Prüfung
-3017004	Umland von Velika
-3017005	Umland von Velika
-3018000	Eingang zur Tenebrisfestung (schwierig)
-3018001	Hauptplatz
-3018002	Hauptbibliothek
-3018003	Festungsdach
-3019000	Eingang zu Lians Untergrundhalle
-3019001	Nedras Zuflucht
-3019002	Hinrichtungsplatz
-3019003	Verzerrter Raum
-3019004	Eingang zum Verzerrten Raum
-3020000	Goldschuppe
-3024001	Dungeon zurücksetzen und zurückkehren
-3025001	Dungeon zurücksetzen und zurückkehren
-3026001	Kelsaiks Versteck
-3026002	Kelsaiks Halle
-3026003	Trabantinsel
-3026004	Kelsaiks Versteck (schwer)
-3026005	Eingang zu Kelsaiks Versteck
-3026006	Kelsaiks Halle des Albtraums
-3027001	Wutarena
-3028000	Eingang zu Lians Untergrundhalle
-3028001	Nedras Zuflucht
-3028002	Richtstätte
-3028003	Verzerrter Raum
-3028004	Eingang zum Verzerrten Raum
-3029000	[Training] Antaros-Abgrund (schwierig) - Ausgangspunkt
-3029001	[Training] Antaros-Abgrund (schwierig) - Sperrgebiet
-3029002	[Training] Antaros-Abgrund (schwierig) - Exekutionsplatz
-3029003	[Training] Antaros-Abgrund (schwierig) - Raum der Prüfung
-3029004	Höhenwacht - Halle der Waffen
-3029005	Höhenwacht - Halle der Waffen
-3030001	Legat-Residenz
-3030002	Föderationsbasis
-3031001	Kernzone
-3031002	Kerngebiet
-3033000	[Training] Eingang zu Parquinas Nest (leicht)
-3033001	[Training] Honiglager
-3033002	[Training] Gemach der Königin
-3033003	[Training] Injektionsraum
-3034001	Energie-Forschungseinrichtung
-3034002	Hangar-Belüftungseinrichtung
-3034003	Magnetfeld-Forschungseinrichtung
-3034004	Waren-Bearbeitungseinrichtung
-3034005	Sperrzone: D
-3034006	Sperrzone: E
-3034007	Sperrzone: RK-9 Hangar
-3035001	Veliks Schrein
-3036001	Himmelskreuzer (schwierig)
-3036002	Himmelskreuzer-Plattform (schwierig)
-3036003	Himmelskreuzer-Kontrollraum (schwierig)
-3036004	Himmelskreuzer-Maschinenraum (schwierig)
-3036005	Himmelskreuzer-Deck (schwierig)
-3037000	[Training] Eingang zu Bahaars Tempel
-3037001	[Training] Bahaars Tempel
-3037002	[Training] Bahaars Tempel - Versiegeltes Tor
-3037003	[Training] Bahaars Tempel - Inkarnationshalle
-3037004	[Training] Bahaars Tempel - Inkarnationshalle
-3101001	Honiglager
-3101002	Gemach der Königin
-3101003	Injektionsraum
-3102001	Kommandantenstätte
-3102002	Kommandantenstätten-Eingang
-3103001	Wutarena
-3201000	Eingang zu Parquinas Nest (leicht)
-3201001	Honiglager
-3201002	Gemach der Königin
-3201003	Injektionsraum
-3202001	Kommandantenstätte (schwierig)
-3202002	Kommandantenstätten-Eingang
-3203001	Wutarena
 5051101	Elenea
 5051201	Unbekannter Raum
 5051202	Unbekannter Raum
@@ -1558,7 +1275,7 @@
 8000004	Feuerstellung der Tapferkeit
 8000005	Feuerstellung der Verwegenheit
 8000006	Lager der Vergeltung
-8000007	Himmelshügel – Mysterium-Labor
+8000007	Sanctum Mysterium
 8000008	Die Grube
 8000009	Verteidigerlager
 8000010	Sietch Bidaum
@@ -1568,7 +1285,7 @@
 8000014	Lager an der Zerstörten Brücke
 8000015	Exetron
 8000016	Raga Kabash: Turm der Harmonie
-8000017	Westliches Holzfällerlager - Feenteich
+8000017	Feenteich
 8000018	Professorenwall
 8000019	Tiefen des Verderbens
 8000020	Blutige Tiefen
@@ -1583,15 +1300,15 @@
 8000029	Kathedralenwall
 8000030	Verteidigerwall
 8000031	Große Kapelle
-8000032	Katakomben der Hungrigen Höhlen
-8000033	Tiefen der Hungrigen Höhlen
+8000032	Gewölbe der Hungrigen Höhlen - Posten Alpha
+8000033	Tiefen der Hungrigen Höhlen - Posten Beta
 8000034	Düsterwinkelwachposten
 8000035	Zuflucht der Eindringlinge
 8000036	Raubeinaußenposten
 8000037	Zuflucht
 8000038	Akashas Versteck
 8000039	Eingang zu Akashas Versteck
-8000040	Gewölbe der Hungrigen Höhlen
+8000040	Zugang zu den Hungrigen Höhlen
 8000041	Lager der Erlösung
 8000042	Hallen des Schattens
 8000043	Hallen von Immerschwarz
@@ -1669,7 +1386,7 @@
 9016001	Klippen der Insel der Dämmerung
 9017001	Leuchtturm der Sonne
 9018001	Argonenkatakomben
-9019001	Vorhof des Mysterium-Labors
+9019001	Vorhof des Sanctum Mysterium
 9020001	Waffenkammer der Bastion Loks
 9021001	Verborgener Tunnel
 9022001	Gewölbe des Ruhms
@@ -1701,9 +1418,9 @@
 9029003	Halle des Vorboten
 9029004	Halle der Wiederbelebung
 9029005	Eingang zu Kaprimas Gruft
-9031001	Akashas Versteck (Dungeon der Prüfungen)
-9032001	Goldenes Labyrinth (Dungeon der Prüfungen)
-9033001	Krakatox-Höhle (schwierig, Dungeon der Prüfungen)
+9031001	Akashas Versteck (Prüfung)
+9032001	Goldenes Labyrinth (Prüfung)
+9033001	Der Abszess (schwierig) (Einzelspieler)
 9034001	Eingang zur Spitze der Furcht (schwierig)
 9034002	Spitze der Furcht (schwierig): 2. Herausforderung
 9034003	Spitze der Furcht (schwierig): 3. Herausforderung
@@ -1791,7 +1508,7 @@
 9055005	Nimistrix' Nest
 9055008	Eingang zum Gefräßigen Schlund
 9055009	Nimistrix' Nest
-9056001	Eingang zu Valonas Raumzeit
+9056001	Eingang zum Zeitriss (schwierig)
 9056002	Donnergericht
 9056003	Basaltwiege
 9056004	Zeitkern
@@ -1901,12 +1618,10 @@
 9124002	Velika - Veliks Treppe
 9126001	Petre-Brutstätte
 9126002	Wächter-Trainingslager
-9126003	[Training] Lians Untergrundhalle (schwierig)
 9126101	Allemantheia - Tore der Ehre
 9128101	Kaiator - Triumphplatz
-9503001	Kommandanten Residenz
 9611001	Der Abszess (schwierig)
-9618001	Das Kolosseum
+9618001	Event-Arena (Velika)
 9643001	Wunderholm
 9643002	Spottkammer
 9643011	Wunderholm
@@ -1921,13 +1636,6 @@
 9643101	Wunderholm
 9643111	Wunderholm
 9643121	Wunderholm
-9681001	Veliks Traum
-9681002	Veliks Traum
-9681003	Göttin Veliks Traum (schwierig)
-9681004	Veliks Traum
-9681005	Veliks Traum
-9681006	Velika-Untergrundtor
-9681007	Veliks Traum
 9710001	Lakans Gefängnis (schwierig)
 9710002	Finsterer Sammelplatz
 9710003	Zerrfeld
@@ -1998,7 +1706,7 @@
 9743101	Käfig der Einsamkeit
 9743111	Unwürdiger Abtritt
 9743121	Freiliche Treppe
-9756001	Eingang zu Valonas Raumzeit
+9756001	Eingang zum Zeitriss
 9756002	Donnergericht
 9756003	Basaltwiege
 9756004	Zeitkern
@@ -2248,25 +1956,4 @@
 9994003	Syruks Forschungslabor
 9999998	Für dieses Gebiet wird derzeit eine Karte entwickelt.
 9999999	Die Karte für dieses Gebiet kann nicht angezeigt werden.
-10230001	Arkarp-Brutstätte (Einzelspieler)
-10230002	Arkarp-Brutstätte
-25002501	Versiegelungsstätte
-25002502	Abtrünnigenwald
-25002503	Paesens Neuwelt
-25002504	Exodor-Aktion
-25002530	Heldentrainingslager
-25002531	Kleriker der Rast
-25002532	Kleriker der Rast
-30231000	Geheimzone der Berakfestung
-30231001	Geheimlager der Berakfestung
-30231002	Geheimlabor der Berakfestung
-30232000	Föderationsbasis
-30270001	[Unsterblicher Kämpfer] Wutarena
-30321000	[Training] Geheimzone der Berakfestung
-30321001	[Training] Geheimlager der Berakfestung
-30321002	[Training] Geheimlabor der Berakfestung
-30371000	[Training] Bahaars Tempel
-31030001	[Aeternia] Wutarena
-32030001	[Immortalis] Wutarena
 96431504	Abkürzung
-302700001	Eingang zur Wutarena

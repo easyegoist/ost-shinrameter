@@ -68,3 +68,53 @@ Cannot Invoke client when AutomaticallyInvokeEvents has been set.
 Cannot Invoke client when AutomaticallyInvokeEvents has been set.
 2025-08-12 02:38:04,727 [19] ERROR Data.BasicTeraData [(null)] - DiscordRPC logged error:
 Cannot Invoke client when AutomaticallyInvokeEvents has been set.
+2025-08-12 04:07:00,065 [1] ERROR DamageMeter.AutoUpdate.Program [(null)] - ##### UPDATE EXCEPTION (version=2.96): #####
+The underlying connection was closed: Could not establish trust relationship for the SSL/TLS secure channel.
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   at System.Net.WebClient.OpenReadAsyncCallback(IAsyncResult result)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at DamageMeter.AutoUpdate.UpdateManager.<NoNewHashes>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at DamageMeter.AutoUpdate.UpdateManager.<IsUpToDate>d__13.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at DamageMeter.UI.App.<CheckUpdate>d__9.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at DamageMeter.UI.App.<App_OnStartup>d__6.MoveNext()
+System
+System.Net.WebException: The underlying connection was closed: Could not establish trust relationship for the SSL/TLS secure channel. ---> System.Security.Authentication.AuthenticationException: The remote certificate is invalid according to the validation procedure.
+   at System.Net.TlsStream.EndWrite(IAsyncResult asyncResult)
+   at System.Net.ConnectStream.WriteHeadersCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   at System.Net.WebClient.OpenReadAsyncCallback(IAsyncResult result)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at DamageMeter.AutoUpdate.UpdateManager.<NoNewHashes>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at DamageMeter.AutoUpdate.UpdateManager.<IsUpToDate>d__13.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at DamageMeter.UI.App.<CheckUpdate>d__9.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at DamageMeter.UI.App.<App_OnStartup>d__6.MoveNext()
+System.Collections.ListDictionaryInternal
+System.Security.Authentication.AuthenticationException: The remote certificate is invalid according to the validation procedure.
+   at System.Net.TlsStream.EndWrite(IAsyncResult asyncResult)
+   at System.Net.ConnectStream.WriteHeadersCallback(IAsyncResult ar)
+System.Net.WebResponse EndGetResponse(System.IAsyncResult)

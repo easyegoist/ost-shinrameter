@@ -1,12 +1,8 @@
 1	Le Monde
-2	Monde extérieur
 101	Arun
 102	Sud de Shara
 103	Nord de Shara
 104	Nord d'Arun
-105	Exodor
-106	Osnium Agaia
-107	Battle Arena
 110	Champ de bataille souterrain
 111	Vallée du tonnerre
 112	Gorge de Venteguerre
@@ -17,7 +13,6 @@
 117	Refuge de Kumas
 118	Berceau des Kumas
 152	Velika : Siècle du chaos guerrier
-156	Course aux pièces d'or
 200	Île de l'Aube
 201	Velika
 202	Île de l'Aube
@@ -54,19 +49,10 @@
 506	Salle de banquet de Velika
 507	Sentier de Mystel
 508	Monde intérieur
-510	Quête annexe : Le cauchemar commence
-612	Groupe de recherche d'Exodor
-613	Cantonnement d'Exceptio de cristal
-614	Conseiller civil de Valkyon
-615	Unité spéciale d'Exodor
-616	Riveran
-620	Évènement de Lilli
-622	Évènement de Lilli
-628	Évènement de Lilli
 833	Gorge du Wyrm
 1001	Région des Ruines
 1023	Terrain de chasse pour compétences/évènements
-2001	Forêt féérique
+2001	Forêt féerique
 2002	Palissade du Bûcheron
 2003	Étang des Fées
 2004	Bois des Stigmates
@@ -82,14 +68,6 @@
 2016	Camp d'Aron
 2017	Refuge des Esprits
 2018	Forêt effritée
-2050	Zone centrale
-2105	Résidence des commandants (solo)
-2500	Osnium Agaia
-2501	Site de scellage
-2502	Bois renégat
-2503	Forteresse de Raqnan
-2504	Salle des machines d'Exodor
-2530	Camp d'entraînement pour héros
 3001	Bois de l'Oubli
 3002	Cimetière de Berzerad
 3003	Piste sanglante
@@ -101,33 +79,6 @@
 3009	Caverne des Echos lugubres
 3010	Vallée de la Bête
 3011	Poste de l'Avant-garde
-3017	Abîme d'Antaros (difficile, 7 personnes)
-3018	Forteresse de Ténébris (difficile, 7 personnes)
-3019	Hall souterrain de Lian (difficile, 7 personnes)
-3020	Écaille dorée
-3023	Zone secrète de la Forteresse de Berak
-3024	Couveuse d'Arkarp
-3025	Couveuse d'Arkarp
-3026	Repaire de Kelsaik
-3027	Arène du courroux
-3028	[Entraînement] Hall souterrain de Lian (difficile)
-3029	[Entraînement] Abîme d'Antaros (difficile)
-3030	Résidence du légat
-3031	Zone nucléique
-3032	[Entraînement] Zone secrète de la Forteresse de Berak
-3033	[Entraînement] Nid de Parquina (difficile)
-3034	Hangar du RK-9 (difficile)
-3036	Croiseur céleste (difficile)
-3037	[Entraînement] Temple de Bahaar
-3101	Nid de Parquina (facile)
-3102	Résidence des commandants
-3103	Arène du courroux
-3104	Rukmia
-3126	Repaire de Kelsaik (difficile)
-3201	Nid de Parquina (difficile)
-3202	Résidence des commandants (difficile)
-3203	Arène du courroux
-3204	Rukmia
 4001	Montagne Fyr
 4002	Hautes terres sulfureuses
 4003	Val embrasé
@@ -174,7 +125,7 @@
 7001	Collines célestes
 7002	Plaines d'Omphalos
 7003	Ruines de Muricai
-7004	Лаборатория Мистериума
+7004	Sanctum Mysterium
 7005	Poste de Casidhe
 7006	Vestiges de Cardovek
 7007	Ferme de Godric
@@ -212,7 +163,7 @@
 9034	Pic de l'effroi (difficile)
 9044	Temple de Baharr
 9054	Entrée de l'Ascension bathyssale
-9056	Espace-temps de Valona (difficile)
+9056	Faille temporelle (difficile)
 9057	Fournaise d'Archeron (difficile)
 9059	L'Île délaissée
 9060	Cuirassé de Kalivan (difficile)
@@ -221,19 +172,17 @@
 9068	Temple sanglant de Dkurion (difficile)
 9069	Forteresse de Raqnan
 9070	Plateau trompeur
-9503	Résidence des commandants
 9505	Salle de banquet de Velika (difficile)
 9506	Salle de banquet de Velika
 9507	Salle inconnue
 9508	Monde intérieur
 9509	Salle de banquet paisible de Velika
-9618	Le Colisée
-9681	Rêve de Velik
+9618	Arène d'évènement (Velika)
 9710	Prison de Lakan (difficile)
 9720	Abîme d'Antaros
 9735	Hangar du RK-9
 9739	Camp des révolutionnaires
-9756	Espace-temps de Valona
+9756	Faille temporelle
 9759	L'Île délaissée (difficile)
 9760	Cuirassé de Kalivan
 9767	Laboratoire de Verno
@@ -245,6 +194,7 @@
 9782	Hall souterrain de Lian
 9783	Forteresse de Ténébris
 9794	Station de recherche de Syruk
+9795	
 9810	Entrée de la Prison de Lakan
 9830	Trône céleste
 9833	Gorge du Wyrm
@@ -359,11 +309,6 @@
 15204	Ruine
 15205	Montagnes de Gidd
 15206	Ferme
-15601	Mine
-15602	Bastion
-15603	Ferme
-15604	Marché
-15605	Port
 16001	Val du Croc
 16002	Plaine biscornue
 16003	Champs abandonnés
@@ -524,11 +469,6 @@
 27006	Castra Mysterium
 27007	Station de la Libération
 27008	Ferme du Refuge
-27009	Poste de défense 1
-27010	Poste de défense 2
-27011	Poste de défense 3
-27012	Poste de défense 4
-27016	Place des papillons
 28001	Bois malade
 28002	Talion de Shakan
 28003	Sentier Herath
@@ -562,7 +502,6 @@
 30019	Entrée du Temple de Balder
 30020	Entrée du Phare du Soleil
 30021	Arbre de la Sagesse
-30022	Emplacement pour la pierre magique
 31000	Prison de Lakan
 31001	Plaine des Tempêtes
 31002	Étendues de glace
@@ -639,7 +578,6 @@
 37010	Zone d'incursion
 37011	Crypte maudite
 38001	Gorges de Sienna
-38002	Entrée de l'Arène du courroux
 38004	Ravin de Feldrin
 38005	Champ de feu
 38006	Repaire du Tonnerre
@@ -648,7 +586,6 @@
 38009	Guet de la Vouivre
 38010	Accès à la Crypte maudite
 38011	Coulée de Pointequeue
-38012	Station de quarantaine
 39001	Arachnaea
 39002	Réseau arachnéen
 39003	La tanière
@@ -883,7 +820,7 @@
 63025	Téléportail de ville
 63026	Plate-forme d'aéronef
 63027	Entrée de l'arène d'évènement (Velika)
-63028	Le Colisée
+63028	Arène d'évènement (Velika)
 64001	Base de la Tour
 64002	Poste de commande de l'explorateur
 64003	Avant-poste de Lian
@@ -971,7 +908,7 @@
 84013	Plateforme de vol de Kaiator
 84014	Cœur de la Forge
 84015	Entrée du Fortin
-84016	Académie de magie
+84016	Hall du Pouvoir
 84017	Quartier général de Kaiator
 84018	Noviciat guerrier
 84019	Emporium
@@ -1003,69 +940,61 @@
 90008	50–59
 90009	53–58
 90010	56–60
-90011	De 33 à 57
-90012	64 et 65
-90013	63 et 64
+90011	58–59
+90012	59–60
+90013	59–60
 90014	59–60
 90015	60-65
-90016	65
 97201	Entrée de l'Abîme d'Antaros
-99000	Tiarania<br>De 1 à 11
-99001	Forêt féérique<br>De 10 à 15
-99002	Bois de l'oubli<br>De 11 à 20
-99003	Vallée des titans<br>De 16 à 20
-99004	Marais tuwangi<br>De 19 à 23
-99005	Collines célestes<br>De 21 à 25 (68)
-99006	Falaises de la folie<br>De 23 à 25
-99007	Val du croc<br>De 24 à 29
-99008	Ravin de Paraanon<br>De 24 à 29
-99009	Roc du basilic<br>De 27 à 30
-99010	Terres libres<br>De 28 à 31
-99011	Île des brumes<br>De 30 à 33
-99012	<br>De 31 à 32
-99013	Côte déchiquetée<br>De 32 à 33
-99014	Lac des larmes<br>De 33 à 36
-99015	Ruines colossales<br>De 35 à 38
-99016	Route d'Aurum<br>De 35 à 38
-99017	Bois malade<br>De 38 à 41
-99018	Bassin béni<br>De 38 à 41 (65)
-99019	Bois intemporels<br>De 38 à 42 (65)
-99020	Crête essénianne<br>De 38 à 43 (66)
-99021	Mont Tyrannas<br>De 40 à 45
-99022	Plaine des Tempêtes<br>De 41 à 43
-99023	Plaine gelée<br>De 41 à 45
-99024	Zone de quarantaine<br>De 44 à 46
-99025	Vallée sauvage<br>De 45 à 46
-99026	De 47 à 51<br><br>Vallée de l'ascension<br><br>De 31 à 32
-99027	Île Serpentis<br>De 47 à 51
-99028	Montagne Fyr<br>De 47 à 51
-99029	Bois obscur<br>De 50 à 53
-99030	Bois Sussurus<br>De 50 à 53
-99031	Amena Quatla<br>De 50 à 54
-99032	Gorges de Sienna<br>De 53 à 56 (67, 69)
-99033	Tor Exsul<br>De 53 à 57
-99034	Gorge du Wyrm<br>De 53 à 58
-99035	Taillis de Morteseaux<br>De 56 à 59
-99036	Vallée des aiguilles<br>De 56 à 59
-99037	Plaine des damnés<br>De 56 à 60
-99038	Forteresse de la servitude<br>De 45 à 48 (58)
-99039	Forêt de Tirkai<br>De 33 à 36
-99040	Granarkus<br>64 et 65
-99041	Argonea<br>64
-99042	Front de Khanovar<br>63 et 64
-99043	Refuge de Balder<br>De 59 à 60 (67)
-99044	Plaine barbare<br>De 60 à 61
-99045	Vallée printanière<br>De 61 à 62
-99046	Ex Prima<br>De 62 à 63 (68)
-99047	Arx Umbra<br>De 63 à 65
-99048	Île de l'aube<br>65
-99049	Domaine de Rogash<br>70
-99050	Plantation d'Exodor<br>71
-99051	Marécage de Viridian<br>72
-99052	Forteresse de Berak<br>73
-99053	Zone centrale<br>73
-99054	Région nord<br>73
-99055	Région sud<br>73
+99000	1–11
+99001	10–15
+99002	11–20
+99003	16–20
+99004	19–23
+99005	21–25
+99006	23–25
+99007	24–29
+99008	24–29
+99009	27–30
+99010	28–31
+99011	30–33
+99012	31–32
+99013	32–33
+99014	33–36
+99015	35–38
+99016	35–38
+99017	38–41
+99018	38–41
+99019	38–42
+99020	38–43
+99021	40–45
+99022	41–43
+99023	41–45
+99024	44–46
+99025	45–46
+99026	47–51
+99027	47–51
+99028	47–51
+99029	50–53
+99030	50–53
+99031	50–54
+99032	53–56
+99033	53–57
+99034	53–58
+99035	56–59
+99036	56–59
+99037	56–60
+99038	58–59
+99039	58–59
+99040	59–60
+99041	59–60
+99042	59–60
+99043	59–60
+99044	60-61
+99045	61-62
+99046	62-63
+99047	63-65
+99048	65
 99999	Inexploré
 102001	Champ de Neige d'Hivera
 103001	Champ de neige d'Hivera
@@ -1177,9 +1106,7 @@
 182016	Entrée de l'Armurerie Sabex
 182017	Collines d'émeraude
 182018	Entrée de l'Armurerie Sabex
-182019	Base avancée de Valkyon
 182030	Plate-forme de téléportation du poste de commerce d'Amadjuak
-182031	Troupe d'assaut d'Exodor
 182100	Plate-forme de téléportation des sources de l'ouest
 182101	Plate-forme de téléportation des sources de l'est
 182102	Plate-forme de téléportation des Marches divines
@@ -1188,6 +1115,7 @@
 182300	Sources chaudes d'Hina
 182400	Arête de Kazan
 182500	Collines d'émeraude
+182838	
 183001	Environs de Hautegarde
 183002	Hautegarde
 183003	Sanctuaire d'illumination
@@ -1216,22 +1144,6 @@
 248001	Front de Khanovar
 249001	Argonea
 250001	Granarkus
-250101	Site de scellage
-250201	Sigil
-250202	Centre de Sigil
-250203	Point d'activation du cercle de bannissement
-250301	Forteresse de Raqnan
-250401	Salle des machines (RdC)
-250402	Salle des machines (1er étage)
-250403	Salle des machines (2e étage)
-302301	Passage secret de la Forteresse de Berak
-302701	Salle d'attente de l'Arène du courroux
-302702	Chemin vers l'Arène du courroux
-303201	[Entraînement] Passage secret de la Forteresse de Berak
-310301	Salle d'attente de l'Arène du courroux
-310302	Chemin vers l'Arène du courroux
-320301	Salle d'attente de l'Arène du courroux
-320302	Chemin vers l'Arène du courroux
 469001	Arx Umbra : il y a environ 50 ans
 505111	Élénea
 505112	Avant-poste de l'Épine ardente
@@ -1258,7 +1170,6 @@
 599010	Entrepôt
 599011	Plateforme du Pégase de Marchepierre
 599012	Grotte des racines séveuses
-599013	Pépinière
 780781	Porte souterraine de Velika
 818001	Laboratoire secret
 818002	Corridor d'accès au laboratoire
@@ -1277,7 +1188,7 @@
 828004	Maître de vol
 829001	Tiaran l'Arbre du Chagrin
 829002	Cœur du Chagrin
-905601	Espace-temps de Valona (difficile)
+905601	Faille temporelle (difficile)
 905602	Voie écarlate
 905603	Au-delà de l'Épreuve du Tonnerre
 905604	Jugement dernier
@@ -1307,7 +1218,7 @@
 950002	Entrée détruite du royaume des dieux
 973501	Hangar du RK-9
 973502	Entrée du Hangar du RK-9
-975601	Espace-temps de Valona
+975601	Faille temporelle
 975602	Voie écarlate
 975603	Au-delà de l'Épreuve du Tonnerre
 975604	Jugement dernier
@@ -1332,6 +1243,7 @@
 978021	Cabinet en pierres de la magie bleue
 978030	Lieu dénaturé
 978031	Porte souterraine de Velika
+979501	
 996901	Entrée de la Forteresse de Lilitas, des Ruines de Lachelitas
 996902	Jardin ardent
 996903	Hall de la gloire
@@ -1351,201 +1263,6 @@
 998030	Lieu dénaturé
 998031	Porte souterraine effondrée de Velika
 1810041	Entrée de l'Ascension batyhssale
-2000000	Domaine de Rogash
-2000001	Plantation d'Exodor
-2000002	Marécage de Viridian
-2000003	Forteresse de Berak
-2000004	Zone centrale
-2000005	Quartier nord
-2000006	Quartier sud
-2000010	Domaine de Konzi
-2000011	Sanctuaire de Rogash
-2000012	Couveuse des larves
-2000013	Entrée de la Couveuse des larves
-2000014	Sortie de la Couveuse des larves
-2000015	Plateforme du domaine
-2000016	Arrière-cour de Rogash
-2000017	Manoir de Rogash
-2000018	Vallée des cristaux
-2000019	Bivouac de l'expédition d'Exodor
-2000020	Saillie de la Couveuse
-2000021	Zone dérobée
-2000100	Arbre primus
-2000101	Arbre secundus
-2000102	Arbre tertius
-2000103	Entrepôt de sécrétion
-2000104	Base de la Fédération
-2000150	Casque des papillons
-2001010	Plateforme de la plantation
-2001011	Camp naga
-2001012	Entrée de la base des Riverans
-2001013	Base des Riverans
-2001014	Sortie de la Base des Riverans
-2001015	Mine de cristal
-2001016	Bivouac de la Fédération Valkyon
-2001017	Bivouac des Riverans
-2001018	Site de collecte des cristaux
-2001019	Enclos à larves
-2001020	Camp de défense de la plantation
-2001021	Plateforme d'orientation du marécage
-2001022	Cachette secrète
-2001023	Ferme d'Azra
-2001024	Enclos à bête
-2001025	Lac mimétique
-2001026	Zone dérobée
-2001050	Dépôt de cristal
-2001051	Zone de chasse des parfs monarques
-2001052	Refuge des parfs monarques
-2002001	Plateforme du marécage
-2002002	Entrée du Marécage de Viridian
-2002003	Marécage de Viridian
-2002004	Poste désaffecté
-2002005	Territoire des fauves
-2002006	Vallée de la brèche
-2002007	Enclos à monstre
-2002008	Cachot disciplinaire
-2002009	Jardin de fantaisie
-2002010	Pont du cachot
-2002011	Plateforme d'orientation de la forteresse
-2002012	Bivouac des survivants
-2002013	Faille isolée
-2002014	Zone dérobée
-2002050	Vallée sinistre
-2003001	Plateforme de la Forteresse de Berak
-2003002	Poste de contrôle
-2003003	Entrée du Passage des frissons
-2003004	Porte des frissons
-2003005	Jardin des frissons (côté nord)
-2003006	Jardin des frissons (côté sud)
-2003007	Forteresse de Berak
-2003008	Entrée de la Forteresse de Berak
-2003009	Sous-sol de la Forteresse de Berak
-2003010	Parvis de la Salle des machines
-2003011	Passage des frissons
-2003012	Fort des Riverans
-2003013	Zone de défense
-2003014	Couloir de la Zone interdite
-2003015	Entrée du cœur
-2003016	Couloir du cœur
-2003017	Périmètre de sécurité
-2003018	Étage supérieur de la Forteresse de Berak
-2003019	Cave de la Forteresse de Berak
-2003020	Couloir de la Salle des machines
-2003021	Couloir du périmètre de sécurité
-2003022	Sous-sol de la Forteresse de Berak
-2003023	Cœur de la Forteresse de Berak
-2003024	Toit du poste de contrôle
-2003025	Entrée de la Résidence des commandants
-2003050	Quartiers des troupes d'Arkarp
-2003051	Siège de Rosema
-2003052	Île Kerozen
-2010001	Ferme d'Arkarp
-2011001	Îlot de pêche du Jardin céleste
-2012001	Îlot de pêche de l'Étang féérique
-2013001	Îlot de la Mer nuageuse
-2014001	Îlot de pêche de Viridian
-2015001	Îlot de pêche de Berak
-2020001	Périphérie d'Exodor
-2052001	Zone de conquête d'Arkarp (noyau)
-2054001	Zone de conquête d'Arkarp (bordure sud)
-2100001	Cœur du sanctuaire de Rogash
-2100002	Vous vous téléportez dans la Couveuse des larves.
-2101001	Couveuse des larves
-2102001	Centre d'interrogatoire
-2103001	Salle des machines du noyau sombre (RdC)
-2103002	Salle des machines du noyau sombre (1er étage)
-2103003	Salle des machines du noyau sombre (2e étage)
-2105001	Résidence des commandants (solo)
-2500001	Osnium Agaia
-2500002	Centre
-2500003	Jeune Arbre des mondes
-2500004	Tour de Shara
-3001001	Base secrète (solo)
-3002001	Manoir sinistre (solo)
-3003001	Refuge des cultistes (solo)
-3004001	Tombe des nécromanciens (solo)
-3005001	Labyrinthe d'or (solo)
-3006001	Repaire d'Akasha (solo)
-3007001	Jardin céleste de Saleron (solo)
-3008001	Labyrinthe de la terreur (solo)
-3009001	Tour d'ébène (solo)
-3010001	Nid de Kelsaik (solo)
-3011001	Noyau de Manaya (solo)
-3017000	Abîme d'Antaros (difficile, 7 personnes) : point de départ
-3017001	Abîme d'Antaros (difficile, 7 personnes) : zone interdite
-3017002	Abîme d'Antaros (difficile, 7 personnes) : place des châtiments
-3017003	Abîme d'Antaros (difficile, 7 personnes) : salle de l'épreuve
-3017004	Environs de Velika
-3017005	Environs de Velika
-3018000	Entrée de la Forteresse de Ténébris (difficile)
-3018001	Place centrale
-3018002	Bibliothèque centrale
-3018003	Toit de la forteresse
-3019000	Entrée du Hall souterrain de Lian
-3019001	Sanctuaire de Nedra
-3019002	Place des exécutions
-3019003	Salle dénaturée
-3019004	Entrée de la salle dénaturée
-3020000	Écaille dorée
-3024001	Réinitialiser le donjon et revenir
-3025001	Réinitialiser le donjon et revenir
-3026001	Repaire de Kelsaik
-3026002	Hall de Kelsaik
-3026003	Île satellite
-3026004	Repaire de Kelsaik (difficile)
-3026005	Entrée du Repaire de Kelsaik
-3026006	Hall de Kelsaik cauchemardesque
-3027001	Arène du courroux
-3028000	Entrée du Hall souterrain de Lian
-3028001	Sanctuaire de Nedra
-3028002	Place des exécutions
-3028003	Salle dénaturée
-3028004	Entrée de la salle dénaturée
-3029000	[Entraînement] Abîme d'Antaros (difficile) : Point de départ
-3029001	[Entraînement] Abîme d'Antaros (difficile) : Zone interdite
-3029002	[Entraînement] Abîme d'Antaros (difficile) : Place des châtiments
-3029003	[Entraînement] Abîme d'Antaros (difficile) : Salle de l'épreuve
-3029004	Hautegarde : Hall des armes
-3029005	Hautegarde : Hall des armes
-3030001	Résidence du légat
-3030002	Base de la Fédération
-3031001	Zone nucléique
-3031002	Zone centrale
-3033000	[Entraînement] Entrée du Nid de Parquina (facile)
-3033001	[Entraînement] Réserve de miel
-3033002	[Entraînement] Chambre de la reine
-3033003	[Entraînement] Salle d'injection
-3034001	Centre de recherche énergétique
-3034002	Centrale d'aération du hangar
-3034003	Centre de recherche des champs magnétiques
-3034004	Centre de traitement de marchandises
-3034005	Zone interdite : D
-3034006	Zone interdite : E
-3034007	Zone interdite : Hangar du RK-9
-3035001	Autel de Velik
-3036001	Croiseur céleste (difficile)
-3036002	Plateforme du Croiseur céleste (difficile)
-3036003	Salle des commandes du Croiseur céleste (difficile)
-3036004	Salle des machines du Croiseur céleste (difficile)
-3036005	Pont du Croiseur céleste (difficile)
-3037000	[Entraînement] Entrée du Temple de Bahaar
-3037001	[Entraînement] Temple de Bahaar
-3037002	[Entraînement] Temple de Bahaar : porte scellée
-3037003	[Entraînement] Temple de Bahaar : salle de l'incarnation
-3037004	[Entraînement] Temple de Bahaar : salle de l'incarnation
-3101001	Réserve de miel
-3101002	Chambre de la reine
-3101003	Salle d'injection
-3102001	Résidence des commandants
-3102002	Entrée de la Résidence des commandants
-3103001	Arène du courroux
-3201000	Entrée du Nid de Parquina (facile)
-3201001	Réserve de miel
-3201002	Chambre de la reine
-3201003	Salle d'injection
-3202001	Résidence des commandants (difficile)
-3202002	Entrée de la Résidence des commandants
-3203001	Arène du courroux
 5051101	Élénea
 5051201	Salle inconnue
 5051202	Salle inconnue
@@ -1558,7 +1275,7 @@
 8000004	Base de feu de la Bravoure
 8000005	Base de feu de l'Audace
 8000006	Pointe de la Vengeance
-8000007	Небесные холмы – Лаборатория Мистериума
+8000007	Sanctum Mysterium
 8000008	La Fosse
 8000009	Camp des Défenseurs
 8000010	Sietch Bidaum
@@ -1568,7 +1285,7 @@
 8000014	Camp du Pont brisé
 8000015	Exetron
 8000016	Raga Kabash : Tour de l'Harmonie
-8000017	Forêt féérique : Étang des fées
+8000017	Étang des Fées
 8000018	Fortin des Professeurs
 8000019	Profondeurs de la Corruption
 8000020	Profondeurs sanglantes
@@ -1583,15 +1300,15 @@
 8000029	Fortin de la Cathédrale
 8000030	Fortin des Défenseurs
 8000031	Grande chapelle
-8000032	Catacombes des Cavernes affamées
-8000033	Profondeurs des Cavernes affamées
+8000032	Chambres des Cavernes affamées - Poste alpha
+8000033	Profondeurs des Cavernes affamées - Poste bêta
 8000034	Poste de sentinelle du Triste repaire
 8000035	Refuge des Espions
 8000036	Avant-poste du Voyou
 8000037	Sanctuaire
 8000038	Repaire d'Akasha
 8000039	Entrée du Repaire d'Akasha
-8000040	Chambres des Cavernes affamées
+8000040	Entrée des Cavernes affamées
 8000041	Camp de la Rédemption
 8000042	Halls des Ombres
 8000043	Halls des Ténèbres
@@ -1669,7 +1386,7 @@
 9016001	Falaises de l'Île de l'Aube
 9017001	Phare du Soleil
 9018001	Catacombes argones
-9019001	Атриум лаборатории Мистериума
+9019001	Cour du Sanctum Mysterium
 9020001	Bastion de l'armurerie de Lok
 9021001	Tunnel caché
 9022001	Chambre de la Gloire
@@ -1701,9 +1418,9 @@
 9029003	Hall des apôtres
 9029004	Hall de la résurrection
 9029005	Entrée du Caveau de Kaprima
-9031001	Repaire d'Akasha (donjon des épreuves)
-9032001	Labyrinthe d'or (donjon des épreuves)
-9033001	Caverne de Krakatox (difficile, donjon des épreuves)
+9031001	Repaire d'Akasha (épreuve)
+9032001	Labyrinthe d'Or (épreuve)
+9033001	L'Abcès (difficile) (solo)
 9034001	Entrée du Pic de l'effroi (difficile)
 9034002	Pic de l'effroi (difficile) : 2e défi
 9034003	Pic de l'effroi (difficile) : 3e défi
@@ -1791,7 +1508,7 @@
 9055005	Nid de Nimistrix
 9055008	Entrée de la Gorge vorace
 9055009	Nid de Nimistrix
-9056001	Entrée de l'Espace-temps de Valona
+9056001	Entrée de la Faille temporelle (difficile)
 9056002	Épreuve du Tonnerre
 9056003	Le Berceau de Basalte
 9056004	Noyau temporel
@@ -1901,12 +1618,10 @@
 9124002	Velika - Pas de Velik
 9126001	Couveuse de Petre
 9126002	Camp d'entraînement de gardiens
-9126003	[Entraînement] Hall souterrain de Lian (difficile)
 9126101	Allemantheia - Portes d'honneur
 9128101	Kaiator - Place du Triomphe
-9503001	Résidence des commandants
 9611001	L'Abcès (difficile)
-9618001	Le Colisée
+9618001	Arène d'évènement (Velika)
 9643001	Wonderholme
 9643002	Chambre de la Raillerie
 9643011	Wonderholme
@@ -1921,13 +1636,6 @@
 9643101	Wonderholme
 9643111	Wonderholme
 9643121	Wonderholme
-9681001	Rêve de Velik
-9681002	Rêve de Velik
-9681003	Rêve de la déesse Velik (difficile)
-9681004	Rêve de Velik
-9681005	Rêve de Velik
-9681006	Porte souterraine de Velika
-9681007	Rêve de Velik
 9710001	Prison de Lakan (difficile)
 9710002	Point de ralliement macabre
 9710003	Champ distordant
@@ -1998,7 +1706,7 @@
 9743101	Cage de la solitude
 9743111	Palier désinvolte
 9743121	Escalier vacant
-9756001	Entrée de l'Espace-temps de Valona
+9756001	Entrée de la Faille temporelle
 9756002	Épreuve du Tonnerre
 9756003	Le Berceau de Basalte
 9756004	Noyau temporel
@@ -2248,25 +1956,4 @@
 9994003	Laboratoire de recherche de Syruk
 9999998	Une carte est en train d'être créée pour cette zone.
 9999999	La carte de cette zone n'est pas disponible.
-10230001	Couveuse d'Arkarp (solo)
-10230002	Couveuse d'Arkarp
-25002501	Site de scellage
-25002502	Bois renégat
-25002503	Nouveau monde de Paesyn
-25002504	Action d'Exodor
-25002530	Camp d'entraînement pour héros
-25002531	Clerc du répit
-25002532	Clerc du répit
-30231000	Zone secrète de la Forteresse de Berak
-30231001	Entrepôt secret de la Forteresse de Berak
-30231002	Laboratoire secret de la Forteresse de Berak
-30232000	Base de la Fédération
-30270001	[Combattant immortel] Arène du courroux
-30321000	[Entraînement] Zone secrète de la Forteresse de Berak
-30321001	[Entraînement] Entrepôt secret de la Forteresse de Berak
-30321002	[Entraînement] Laboratoire secret de la Forteresse de Berak
-30371000	[Entraînement] Temple de Bahaar
-31030001	[Aeternia] Arène du courroux
-32030001	[Immortalis] Arène du courroux
 96431504	Raccourci
-302700001	Entrée de l'Arène du courroux
