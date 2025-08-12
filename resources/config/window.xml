@@ -37,7 +37,7 @@
   <autoupdate>true</autoupdate>
   <ignore_packets_threshold>false</ignore_packets_threshold>
   <remember_position>true</remember_position>
-  <capture_mode>Toolbox</capture_mode>
+  <winpcap>true</winpcap>
   <invisible_ui_when_no_stats>false</invisible_ui_when_no_stats>
   <allow_transparency>true</allow_transparency>
   <topmost>true</topmost>
@@ -52,7 +52,6 @@
   <partyonly>false</partyonly>
   <showhealcrit>true</showhealcrit>
   <showtimeleft>false</showtimeleft>
-  <snapToBorders>true</snapToBorders>
   <show_crit_damage_rate>false</show_crit_damage_rate>
   <detect_bosses_only_by_hp_bar>false</detect_bosses_only_by_hp_bar>
   <only_bosses>false</only_bosses>
@@ -60,7 +59,7 @@
   <number_of_players_displayed>5</number_of_players_displayed>
   <meter_user_on_top>false</meter_user_on_top>
   <remove_tera_alt_enter_hotkey>true</remove_tera_alt_enter_hotkey>
-  <enable_chat_and_notifications>true</enable_chat_and_notifications>
+  <enable_chat_and_notifications>false</enable_chat_and_notifications>
   <mute_sound>false</mute_sound>
   <click_throu>false</click_throu>
   <copy_inspect>false</copy_inspect>
@@ -79,8 +78,6 @@
   <stat_tank_color>#FF44B2FC</stat_tank_color>
   <stat_healer_color>#FF3BE24B</stat_healer_color>
   <stat_player_color>#FFF4A442</stat_player_color>
-  <background_color>#FF232830</background_color>
-  <border_color>#FF717B85</border_color>
   <disable_party_event>false</disable_party_event>
   <show_afk_events_ingame>false</show_afk_events_ingame>
   <idle_reset_timeout>0</idle_reset_timeout>
@@ -94,45 +91,20 @@
   <tts_size_exceeded_truncate>true</tts_size_exceeded_truncate>
   <realtime_graph>
     <enabled>false</enabled>
-    <animated>false</animated>
     <displayed_interval>120</displayed_interval>
     <cma_seconds>10</cma_seconds>
-    <graph_mode>CMA</graph_mode>
   </realtime_graph>
   <rich_presence>
-    <enabled>true</enabled>
+    <enabled>false</enabled>
     <show_location>true</show_location>
     <show_character>false</show_character>
     <show_status>true</show_status>
     <show_party>true</show_party>
   </rich_presence>
-  <metrics>
-    <dps_metrics>
-      <metric>Dps</metric>
-      <metric>DamagePerc</metric>
-      <metric>CritRate</metric>
-      <metric>None</metric>
-      <metric>None</metric>
-    </dps_metrics>
-    <tank_metrics>
-      <metric>Dps</metric>
-      <metric>DamagePerc</metric>
-      <metric>AggroPerc</metric>
-      <metric>None</metric>
-      <metric>None</metric>
-    </tank_metrics>
-    <healer_metrics>
-      <metric>Dps</metric>
-      <metric>DamagePerc</metric>
-      <metric>EnduDebuffUptime</metric>
-      <metric>None</metric>
-      <metric>None</metric>
-    </healer_metrics>
-  </metrics>
   <dps_servers>
     <server>
-      <username />
-      <token />
+      <username></username>
+      <token></token>
       <enabled>true</enabled>
       <dps_url>https://kyancer.us/api/shinra/upload</dps_url>
       <glyph_url />
