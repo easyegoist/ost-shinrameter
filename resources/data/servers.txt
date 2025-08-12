@@ -5,7 +5,7 @@
 79.110.95.37 EU 90 Baldrov
 79.110.95.37 EU 91 Atmorph
 
-45.137.206.116 EUC 10 Visionmaker
+45.137.206.116 EUC 10 Old School TERA
 
 208.67.49.50 NA 4105 Velika
 208.67.49.51 NA 4107 Kaiator
