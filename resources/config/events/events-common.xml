@@ -9,7 +9,7 @@
 		</abnormalities>
 		<actions>
 			<notify>
-				<text_to_speech text="{abnormality_name}" voice_gender="Female" voice_age="Adult"  voice_position="0" volume="80" rate="+3"/>
+				<text_to_speech text="Адреналин" voice_gender="Female" voice_age="Adult"  voice_position="0" volume="80" rate="+3"/>
 			</notify>
 		</actions>
 	</abnormality>
@@ -22,7 +22,7 @@
 		<actions>
 			<notify>
 				<balloon title_text="{abnormality_name} : on" body_text="{abnormality_name}" display_time="3000" />
-				<text_to_speech voice_position="0" text="Burst" />
+				<text_to_speech voice_position="0" text="Судья" />
 			</notify>
 		</actions>
 	</abnormality>
@@ -40,7 +40,7 @@
 		<actions>
 			<notify>
 				<balloon title_text="{abnormality_name}" body_text="{abnormality_name}" display_time="3000" />
-				<text_to_speech voice_position="0" text="Kaya" />
+				<text_to_speech voice_position="0" text="Кайа" />
 			</notify>
 		</actions>
 	</abnormality>
@@ -53,7 +53,7 @@
 		<actions>
 			<notify>
 				<balloon title_text="{abnormality_name} : on" body_text="{abnormality_name}" display_time="3000" />
-				<text_to_speech voice_position="0" text="Burst" />
+				<text_to_speech voice_position="0" text="Разрушитель" />
 			</notify>
 		</actions>
 	</abnormality>
@@ -68,6 +68,34 @@
 			</actions>
 	</common_afk>
 	
+	<!-- Bahaar 30%- laser target debuff -->
+	    <abnormality active="true" priority="1" rewarn_timeout_seconds="4" ingame="true" trigger="Added" target="Self">
+		<abnormalities>
+		    <abnormality>90442502</abnormality>
+		</abnormalities>
+		<actions>
+		    <notify>
+			<balloon title_text="{abnormality_name}" body_text="{abnormality_name}" display_time="3000" />
+			<text_to_speech voice_position="0" text="Лазер на тебе" />
+		    </notify>
+		</actions>
+	    </abnormality>
+	
+	
+	<!-- Durion hardmode stacks -->
+	<abnormality active="true" priority="1" ingame="true" trigger="Added" target="Self">
+		<abnormalities>
+			<abnormality>981026</abnormality>
+			<abnormality>468039</abnormality>
+		</abnormalities>
+		<actions>
+			<notify>
+				<balloon title_text="WARNING {abnormality_name} {stack}" body_text="{abnormality_name}" display_time="3000" />
+				<text_to_speech voice_position="0" text="Стаки {stack}" />
+			</notify>
+		</actions>
+	</abnormality>
+	
 	<!-- Raid P3 tank debuff overload warning -->
 	<abnormality ingame="true" trigger="Added" target="Self" priority="11" >
 		<abnormalities>
@@ -76,23 +104,10 @@
 		<actions>
 			<notify>
 				<balloon title_text="WARNING {abnormality_name}" body_text="{abnormality_name}" display_time="3000" />
-				<text_to_speech text="WARNING {abnormality_name}" voice_gender="Female" voice_age="Adult" voice_position="0" volume="30" rate="0" />
+				<text_to_speech text="5 стаков" voice_gender="Female" voice_age="Adult" voice_position="0" volume="30" rate="0" />
 			</notify>
 		</actions>
 	</abnormality>
-	
-	<!-- Bahaar 30%- laser target debuff -->
-	    <abnormality active="true" priority="1" rewarn_timeout_seconds="4" ingame="true" trigger="Added" target="Self">
-		<abnormalities>
-		    <abnormality>90442502</abnormality>
-		</abnormalities>
-		<actions>
-		    <notify>
-			<balloon title_text="{abnormality_name}" body_text="{abnormality_name}" display_time="3500" />
-			<text_to_speech voice_position="0" text="Laser on you" />
-		    </notify>
-		</actions>
-	    </abnormality>
 		
 	<!-- Raid 30, phase 3, black debuff (Dust) -->
 	<abnormality ingame="true" priority="11" trigger="Added" target="Self">
@@ -103,7 +118,7 @@
 		<actions>
 			<notify>
 				<balloon title_text="{abnormality_name}" body_text="{abnormality_name}" display_time="3000" />
-				<text_to_speech text="Black" voice_gender="Female" voice_age="Adult"  voice_position="0" volume="30" rate="0" />
+				<text_to_speech text="Черный" voice_gender="Female" voice_age="Adult"  voice_position="0" volume="30" rate="0" />
 			</notify>
 		</actions>
 	</abnormality>
@@ -117,7 +132,7 @@
 		<actions>
 			<notify>
 				<balloon title_text="{abnormality_name}" body_text="{abnormality_name}" display_time="3000" />
-				<text_to_speech text="Red" voice_gender="Female" voice_age="Adult"  voice_position="0" volume="30" rate="0"/>
+				<text_to_speech text="Красный" voice_gender="Female" voice_age="Adult"  voice_position="0" volume="30" rate="0"/>
 			</notify>
 		</actions>
 	</abnormality>
@@ -129,7 +144,7 @@
 		</abnormalities>
 		<actions>
 			<notify>
-				<text_to_speech text="{abnormality_name} ON" voice_gender="Female" voice_age="Adult"  voice_position="0" volume="30" rate="0"/>
+				<text_to_speech text="Ярость" voice_gender="Female" voice_age="Adult"  voice_position="0" volume="30" rate="0"/>
 			</notify>
 		</actions>
 	</abnormality>
@@ -141,7 +156,7 @@
 		</abnormalities>
 		<actions>
 			<notify>
-				<balloon title_text="{abnormality_name} is ending" body_text="{abnormality_name} {time_left} left" display_time="3000" />
+				<balloon title_text="Ярость кончается" body_text="{abnormality_name} {time_left} left" display_time="3000" />
 			</notify>
 		</actions>
 	</abnormality>	
@@ -153,7 +168,7 @@
 		</abnormalities>
 		<actions>
 			<notify>
-				<text_to_speech text="{abnormality_name} OFF" voice_gender="Female" voice_age="Adult"  voice_position="0" volume="80" rate="+2"/>
+				<balloon title_text="Ярость кончилась" body_text="{abnormality_name}" display_time="3000" />
 			</notify>
 		</actions>
 	</abnormality>
@@ -166,7 +181,7 @@
 		<actions>
 			<notify>
 				<balloon title_text="{abnormality_name}" body_text="{abnormality_name}" display_time="3000" />
-				<text_to_speech text="{abnormality_name}" voice_gender="Female" voice_age="Adult"  voice_position="0" volume="30" rate="0"/>
+				<text_to_speech text="Все в сборе" voice_gender="Female" voice_age="Adult"  voice_position="0" volume="30" rate="0"/>
 			</notify>
 		</actions>
 	</abnormality>
@@ -179,13 +194,13 @@
 		<actions>
 			<notify>
 				<balloon title_text="{abnormality_name}" body_text="{abnormality_name}" display_time="3000" />
-				<text_to_speech text="{abnormality_name}" voice_gender="Female" voice_age="Adult"  voice_position="0" volume="30" rate="0"/>
+				<text_to_speech text="Кто-то отсутствует" voice_gender="Female" voice_age="Adult"  voice_position="0" volume="30" rate="0"/>
 			</notify>
 		</actions>
 	</abnormality>
 	
 	<!-- Crystal bind check for yourself -->
-	<abnormality ingame="true" priority="8" remaining_seconds_before_trigger="1000" rewarn_timeout_seconds="5" trigger="MissingDuringFight" target="Self">
+	<!--abnormality ingame="true" priority="8" remaining_seconds_before_trigger="1000" rewarn_timeout_seconds="5" trigger="MissingDuringFight" target="Self">
 		<abnormalities>
 			<abnormality>CrystalBind</abnormality>
 			<abnormality>CCrystalBind</abnormality>
@@ -193,10 +208,10 @@
 		<actions>
 			<notify>
 				<balloon title_text="{abnormality_name}" body_text="{abnormality_name} {time_left}" display_time="3000" />
-				<text_to_speech text="Crystal bind" voice_gender="Female" voice_age="Adult"  voice_position="0" volume="30" rate="0" />
+				<text_to_speech text="Хранитель кристаллов" voice_gender="Female" voice_age="Adult"  voice_position="0" volume="30" rate="0" />
 			</notify>
 		</actions>
-	</abnormality>
+	</abnormality-->
 	
 	<!-- Crystal bind check for your party members -->
 	<abnormality ingame="true" priority="0" remaining_seconds_before_trigger="400" rewarn_timeout_seconds="10" trigger="MissingDuringFight" target="PartySelfExcluded">
@@ -212,7 +227,7 @@
 	</abnormality>
 	
 	<!-- Everful Nostrum for yourself -->
-	<abnormality ingame="true" priority="7" remaining_seconds_before_trigger="20" rewarn_timeout_seconds="3" trigger="MissingDuringFight" target="Self">
+	<!--abnormality ingame="true" priority="7" remaining_seconds_before_trigger="20" rewarn_timeout_seconds="3" trigger="MissingDuringFight" target="Self">
 		<abnormalities>
 			<abnormality>4031</abnormality>
 			<abnormality>4030</abnormality>
@@ -227,10 +242,10 @@
 		</abnormalities>
 		<actions>
 			<notify>
-				<text_to_speech text="Nostrum" voice_gender="Female" voice_age="Adult"  voice_position="0" volume="30" rate="0"/>
+				<text_to_speech text="Желтая банка не выпита" voice_gender="Female" voice_age="Adult"  voice_position="0" volume="30" rate="0"/>
 			</notify>
 		</actions>
-	</abnormality>
+	</abnormality-->
 	
 	<!-- Everful Nostrum for your party members -->
 	<abnormality ingame="true" priority="4" remaining_seconds_before_trigger="20" rewarn_timeout_seconds="40" trigger="MissingDuringFight" target="PartySelfExcluded">
@@ -262,13 +277,13 @@
 		</abnormalities>
 		<actions>
 			<notify>
-				<balloon title_text="Noctenium missing" body_text="{time_left} seconds" display_time="3000" />
+				<balloon title_text="Ноктиний отсутствует" body_text="{time_left} секунд" display_time="3000" />
 			</notify>
 		</actions>
 	</abnormality>
 
 	<!-- Bravery for yourself -->
-	<abnormality ingame="true" remaining_seconds_before_trigger="30" rewarn_timeout_seconds="3" trigger="MissingDuringFight" target="Self" priority="1" ignore_classes="Mystic,Priest">
+	<!--abnormality ingame="true" remaining_seconds_before_trigger="30" rewarn_timeout_seconds="3" trigger="MissingDuringFight" target="Self" priority="1" ignore_classes="Mystic,Priest">
 		<abnormalities>
 			<abnormality>4830</abnormality>
 			<abnormality>4831</abnormality>
@@ -280,13 +295,15 @@
 			<abnormality>4953</abnormality>
 			<abnormality>4955</abnormality>
 			<abnormality>2103</abnormality>
+			<abnormality>16300013</abnormality>
+			<abnormality>16300015</abnormality>
 		</abnormalities>
 		<actions>
 			<notify>
-				<balloon title_text="Bravery/Canephora" body_text="{time_left} seconds" display_time="4000" />
+				<balloon title_text="Храбрость\Канефора отсутствует" body_text="{time_left} секунд" display_time="4000" />
 			</notify>
 		</actions>
-	</abnormality>
+	</abnormality-->
 
 	<!-- Food for yourself -->
 	<abnormality ingame="true" remaining_seconds_before_trigger="30" rewarn_timeout_seconds="3" trigger="Ending" target="Self" priority="1">
@@ -302,7 +319,7 @@
 		</abnormalities>
 		<actions>
 			<notify>
-				<balloon title_text="Food" body_text="{time_left} seconds" display_time="4000" />
+				<balloon title_text="Еда" body_text="{time_left} секунд" display_time="4000" />
 			</notify>
 		</actions>
 	</abnormality>
@@ -353,7 +370,7 @@
 		<actions>
 			<notify>
 				<balloon title_text="{abnormality_name}" body_text="{abnormality_name}" display_time="1000" />
-				<text_to_speech text="{abnormality_name}" voice_gender="Male" voice_age="Adult" voice_position="0" volume="30" rate="1"/>
+				<text_to_speech text="Рагнарёк" voice_gender="Male" voice_age="Adult" voice_position="0" volume="30" rate="1"/>
 			</notify>
 		</actions>
 	</abnormality>

@@ -1,21 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <window>
   <location>
-    <x>1231</x>
-    <y>413</y>
+    <x>1684</x>
+    <y>274</y>
   </location>
   <scale>1</scale>
   <popup_notification_location>
     <x>0</x>
     <y>0</y>
   </popup_notification_location>
-  <boss_gage_window visible="true" scale="1">
+  <boss_gage_window visible="false" scale="1">
     <location>
-      <x>774</x>
-      <y>230</y>
+      <x>0</x>
+      <y>0</y>
     </location>
   </boss_gage_window>
-  <debuff_uptime_window visible="true" scale="1">
+  <debuff_uptime_window visible="false" scale="1">
     <location>
       <x>0</x>
       <y>0</y>
@@ -23,35 +23,36 @@
   </debuff_uptime_window>
   <upload_history_window visible="false" scale="1">
     <location>
-      <x>1889</x>
-      <y>517</y>
+      <x>1350</x>
+      <y>588</y>
     </location>
   </upload_history_window>
   <language>Auto</language>
   <ui_language>Auto</ui_language>
   <opacity>
-    <mainWindow>50</mainWindow>
+    <mainWindow>100</mainWindow>
     <otherWindow>90</otherWindow>
   </opacity>
   <autoDisableChatWhenOverloaded>false</autoDisableChatWhenOverloaded>
   <autoupdate>true</autoupdate>
   <ignore_packets_threshold>false</ignore_packets_threshold>
   <remember_position>true</remember_position>
-  <winpcap>true</winpcap>
+  <capture_mode>Toolbox</capture_mode>
   <invisible_ui_when_no_stats>false</invisible_ui_when_no_stats>
   <allow_transparency>true</allow_transparency>
   <topmost>true</topmost>
   <debug>true</debug>
   <excel>false</excel>
   <excel_path_template>{Area}/{Boss} {Date} {Time} {User}</excel_path_template>
-  <excel_save_directory>C:\Users\nickd\Documents\ShinraMeter/</excel_save_directory>
+  <excel_save_directory>C:\Users\Fabiany\Documents\ShinraMeter/</excel_save_directory>
   <excel_cma_dps_seconds>1</excel_cma_dps_seconds>
   <json>false</json>
-  <always_visible>false</always_visible>
+  <always_visible>true</always_visible>
   <lf_delay>150</lf_delay>
   <partyonly>false</partyonly>
   <showhealcrit>true</showhealcrit>
   <showtimeleft>false</showtimeleft>
+  <snapToBorders>true</snapToBorders>
   <show_crit_damage_rate>false</show_crit_damage_rate>
   <detect_bosses_only_by_hp_bar>false</detect_bosses_only_by_hp_bar>
   <only_bosses>false</only_bosses>
@@ -62,7 +63,7 @@
   <enable_chat_and_notifications>true</enable_chat_and_notifications>
   <mute_sound>false</mute_sound>
   <click_throu>false</click_throu>
-  <copy_inspect>true</copy_inspect>
+  <copy_inspect>false</copy_inspect>
   <format_paste_string>true</format_paste_string>
   <say_color>#FFFFFFFF</say_color>
   <alliance_color>#FF008000</alliance_color>
@@ -78,6 +79,8 @@
   <stat_tank_color>#FF44B2FC</stat_tank_color>
   <stat_healer_color>#FF3BE24B</stat_healer_color>
   <stat_player_color>#FFF4A442</stat_player_color>
+  <background_color>#FF232830</background_color>
+  <border_color>#FF717B85</border_color>
   <disable_party_event>false</disable_party_event>
   <show_afk_events_ingame>false</show_afk_events_ingame>
   <idle_reset_timeout>0</idle_reset_timeout>
@@ -91,36 +94,45 @@
   <tts_size_exceeded_truncate>true</tts_size_exceeded_truncate>
   <realtime_graph>
     <enabled>false</enabled>
+    <animated>false</animated>
     <displayed_interval>120</displayed_interval>
     <cma_seconds>10</cma_seconds>
+    <graph_mode>CMA</graph_mode>
   </realtime_graph>
   <rich_presence>
-    <enabled>false</enabled>
+    <enabled>true</enabled>
     <show_location>true</show_location>
     <show_character>false</show_character>
     <show_status>true</show_status>
     <show_party>true</show_party>
   </rich_presence>
+  <metrics>
+    <dps_metrics>
+      <metric>Dps</metric>
+      <metric>DamagePerc</metric>
+      <metric>CritRate</metric>
+      <metric>None</metric>
+      <metric>None</metric>
+    </dps_metrics>
+    <tank_metrics>
+      <metric>Dps</metric>
+      <metric>DamagePerc</metric>
+      <metric>AggroPerc</metric>
+      <metric>None</metric>
+      <metric>None</metric>
+    </tank_metrics>
+    <healer_metrics>
+      <metric>Dps</metric>
+      <metric>DamagePerc</metric>
+      <metric>EnduDebuffUptime</metric>
+      <metric>None</metric>
+      <metric>None</metric>
+    </healer_metrics>
+  </metrics>
   <dps_servers>
     <server>
-      <username></username>
-      <token></token>
-      <enabled>false</enabled>
-      <dps_url>https://moongourd.com/api/shinra/upload</dps_url>
-      <glyph_url>https://moongourd.com/api/shinra/upload_glyph</glyph_url>
-      <allowed_area_url>https://moongourd.com/api/shinra/whitelist</allowed_area_url>
-    </server>
-    <server>
-      <username></username>
-      <token></token>
-      <enabled>false</enabled>
-      <dps_url>https://api.teralogs.com/v1/upload</dps_url>
-      <glyph_url />
-      <allowed_area_url>https://api.teralogs.com/v1/whitelist</allowed_area_url>
-    </server>
-    <server>
-      <username></username>
-      <token></token>
+      <username />
+      <token />
       <enabled>true</enabled>
       <dps_url>https://kyancer.us/api/shinra/upload</dps_url>
       <glyph_url />
