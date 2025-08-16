@@ -1,5 +1,5 @@
-2025-08-12 02:37:33,584 [1] ERROR DamageMeter.AutoUpdate.Program [(null)] - ##### UPDATE EXCEPTION (version=2.96): #####
-The underlying connection was closed: Could not establish trust relationship for the SSL/TLS secure channel.
+2025-08-12 18:03:35,422 [1] ERROR DamageMeter.AutoUpdate.Program [(null)] - ##### UPDATE EXCEPTION (version=2.96): #####
+The remote name could not be resolved: 'neowutran.ovh'
    at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
    at System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
    at System.Net.WebClient.OpenReadAsyncCallback(IAsyncResult result)
@@ -20,9 +20,55 @@ The underlying connection was closed: Could not establish trust relationship for
    at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
    at DamageMeter.UI.App.<App_OnStartup>d__6.MoveNext()
 System
-System.Net.WebException: The underlying connection was closed: Could not establish trust relationship for the SSL/TLS secure channel. ---> System.Security.Authentication.AuthenticationException: The remote certificate is invalid according to the validation procedure.
-   at System.Net.TlsStream.EndWrite(IAsyncResult asyncResult)
-   at System.Net.ConnectStream.WriteHeadersCallback(IAsyncResult ar)
+System.Net.WebException: The remote name could not be resolved: 'neowutran.ovh'
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   at System.Net.WebClient.OpenReadAsyncCallback(IAsyncResult result)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at DamageMeter.AutoUpdate.UpdateManager.<NoNewHashes>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at DamageMeter.AutoUpdate.UpdateManager.<IsUpToDate>d__13.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at DamageMeter.UI.App.<CheckUpdate>d__9.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at DamageMeter.UI.App.<App_OnStartup>d__6.MoveNext()
+System.Collections.ListDictionaryInternal
+
+System.Net.WebResponse EndGetResponse(System.IAsyncResult)
+2025-08-13 17:43:10,544 [1] ERROR DamageMeter.AutoUpdate.Program [(null)] - ##### UPDATE EXCEPTION (version=2.96): #####
+Unable to connect to the remote server
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   at System.Net.WebClient.OpenReadAsyncCallback(IAsyncResult result)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at DamageMeter.AutoUpdate.UpdateManager.<NoNewHashes>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at DamageMeter.AutoUpdate.UpdateManager.<IsUpToDate>d__13.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at DamageMeter.UI.App.<CheckUpdate>d__9.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at DamageMeter.UI.App.<App_OnStartup>d__6.MoveNext()
+System
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 82.65.3.49:443
+   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
    --- End of inner exception stack trace ---
    at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
    at System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
@@ -44,31 +90,12 @@ System.Net.WebException: The underlying connection was closed: Could not establi
    at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
    at DamageMeter.UI.App.<App_OnStartup>d__6.MoveNext()
 System.Collections.ListDictionaryInternal
-System.Security.Authentication.AuthenticationException: The remote certificate is invalid according to the validation procedure.
-   at System.Net.TlsStream.EndWrite(IAsyncResult asyncResult)
-   at System.Net.ConnectStream.WriteHeadersCallback(IAsyncResult ar)
+System.Net.Sockets.SocketException (0x80004005): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 82.65.3.49:443
+   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
 System.Net.WebResponse EndGetResponse(System.IAsyncResult)
-2025-08-12 02:37:55,478 [19] ERROR Data.BasicTeraData [(null)] - DiscordRPC logged error:
-Cannot Invoke client when AutomaticallyInvokeEvents has been set.
-2025-08-12 02:37:56,489 [19] ERROR Data.BasicTeraData [(null)] - DiscordRPC logged error:
-Cannot Invoke client when AutomaticallyInvokeEvents has been set.
-2025-08-12 02:37:57,500 [19] ERROR Data.BasicTeraData [(null)] - DiscordRPC logged error:
-Cannot Invoke client when AutomaticallyInvokeEvents has been set.
-2025-08-12 02:37:58,507 [19] ERROR Data.BasicTeraData [(null)] - DiscordRPC logged error:
-Cannot Invoke client when AutomaticallyInvokeEvents has been set.
-2025-08-12 02:37:59,524 [19] ERROR Data.BasicTeraData [(null)] - DiscordRPC logged error:
-Cannot Invoke client when AutomaticallyInvokeEvents has been set.
-2025-08-12 02:38:00,539 [19] ERROR Data.BasicTeraData [(null)] - DiscordRPC logged error:
-Cannot Invoke client when AutomaticallyInvokeEvents has been set.
-2025-08-12 02:38:01,543 [19] ERROR Data.BasicTeraData [(null)] - DiscordRPC logged error:
-Cannot Invoke client when AutomaticallyInvokeEvents has been set.
-2025-08-12 02:38:02,716 [19] ERROR Data.BasicTeraData [(null)] - DiscordRPC logged error:
-Cannot Invoke client when AutomaticallyInvokeEvents has been set.
-2025-08-12 02:38:03,721 [19] ERROR Data.BasicTeraData [(null)] - DiscordRPC logged error:
-Cannot Invoke client when AutomaticallyInvokeEvents has been set.
-2025-08-12 02:38:04,727 [19] ERROR Data.BasicTeraData [(null)] - DiscordRPC logged error:
-Cannot Invoke client when AutomaticallyInvokeEvents has been set.
-2025-08-12 04:07:00,065 [1] ERROR DamageMeter.AutoUpdate.Program [(null)] - ##### UPDATE EXCEPTION (version=2.96): #####
+2025-08-14 01:08:52,357 [1] ERROR DamageMeter.AutoUpdate.Program [(null)] - ##### UPDATE EXCEPTION (version=2.96): #####
 The underlying connection was closed: Could not establish trust relationship for the SSL/TLS secure channel.
    at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
    at System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
