@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <window>
   <location>
-    <x>1684</x>
-    <y>274</y>
+    <x>974</x>
+    <y>1135</y>
   </location>
   <scale>1</scale>
   <popup_notification_location>
@@ -106,9 +106,9 @@
       <username></username>
       <token></token>
       <enabled>true</enabled>
-      <dps_url>https://kyancer.us/api/shinra/upload</dps_url>
+      <dps_url>https://oldschool.to/api/shinra/upload</dps_url>
       <glyph_url />
-      <allowed_area_url>https://kyancer.us/api/shinra/whitelist</allowed_area_url>
+      <allowed_area_url>https://oldschool.to/api/shinra/whitelist</allowed_area_url>
     </server>
     <blacklist />
   </dps_servers>
